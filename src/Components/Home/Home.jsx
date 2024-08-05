@@ -7,12 +7,12 @@ export default function Home() {
 
   return (
     <>
-      <div className="container py-4 bg-teal-500">
+      <div className="py-4 bg-teal-500">
         <div className="flex flex-col justify-center items-center">
-          <div className="image">
-            <img src={avatar} alt=""/>
+          <div className="image pb-4">
+            <img src={avatar} alt="" className='w-full'/>
           </div>
-          <Header header={'start framework'}/>
+          <Header header={'start framework'} color={'white'}/>
           <div>Graphic Artist - Web Designer - Illustrator</div>
         </div>
       </div>
